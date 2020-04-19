@@ -29,7 +29,7 @@ System.out.println(browserName);
 
 if(browserName.equals("chrome"))
 {
-	 System.setProperty("webdriver.chrome.driver", "/Users/shukhratfayziev/Downloads/BrowserDrivers/chromedriver");
+	 System.setProperty("webdriver.chrome.driver", "./drivers/chromedriver");
 	 driver= new ChromeDriver();
 		//execute in chrome driver //
 	 //
@@ -59,6 +59,5 @@ public void getScreenshot(String result) throws IOException
 	FileUtils.copyFile(src, new File("C://test//"+result+"screenshot.png"));
 	
 }
-
 
 }
