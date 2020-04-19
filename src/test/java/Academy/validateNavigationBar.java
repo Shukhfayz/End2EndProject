@@ -29,7 +29,6 @@ public void initialize() throws IOException
 }
 	
 	@Test
-	
 	public void validateAppNavBar() throws IOException
 	{
 
@@ -42,6 +41,7 @@ public void initialize() throws IOException
 	    log.info("Navigation Bar is displayed");
 		 System.out.println("Test completed");
 	 //   Assert.assertFalse(false);
+		 //hgjgjg
 		;
 	
 		
